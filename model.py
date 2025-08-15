@@ -50,6 +50,6 @@ if __name__ == "__main__":
 
     data = create_random_data(10)
 
-    clusters, cluster_centers = kmeans_fixed(data)
+    clusters, cluster_centers = cluster_using_kmeans(data)
     print(f"shapes: {[np.array(cluster).shape for cluster in clusters]}")
 
