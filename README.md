@@ -5,6 +5,7 @@ realization of k-means
 coverage run -m unittest discover tests/
 OK
 
+```
 $ coverage report
 Name                  Stmts   Miss  Cover
 -----------------------------------------
@@ -14,3 +15,4 @@ tests/test_model.py      65      1    98%
 tests/test_tools.py      67      1    99%
 -----------------------------------------
 TOTAL                   187      5    97%
+```
