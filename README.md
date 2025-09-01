@@ -1,5 +1,4 @@
-# k-means
-realization of k-means
+
 
 # tests
 coverage run -m unittest discover tests/
